@@ -8,12 +8,27 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
+} */
+
+
+
+.decorator {
+  /* background-color: #ffffff;
+  opacity: 0.8; */
+  background-image:  radial-gradient(#000000 0.5px, transparent 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0,10px 10px;
+
+}
+
+input[type="range"] {
+  accent-color: rgb(59,59,59);
 }
 
 body {
